@@ -63,7 +63,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             BASE_DIR / 'Templates',
-            BASE_DIR / 'schoolmgt'/'Templates'/'schoolmgt',
+            BASE_DIR / 'schoolmgt'/'Templates',
             ],
         'APP_DIRS': True,
         'OPTIONS': {
